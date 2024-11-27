@@ -1,0 +1,101 @@
+Product_ID,Product_Name,Category,Price,Color,Size,Material
+1,T-Shirt,Men's Clothing,20,Red,S,Cotton
+2,Hoodie,Men's Clothing,30,Black,M,Polyester
+3,Jeans,Men's Clothing,50,Blue,32x34,Denim
+4,Sweater,Women's Clothing,35,Gray,S,Wool
+5,Dress,Women's Clothing,60,Black,M,Silk
+6,Skirt,Women's Clothing,25,Blue,S,Cotton
+7,Shirt,Men's Clothing,25,White,M,Linen
+8,Blouse,Women's Clothing,30,Red,S,Satin
+9,Shorts,Men's Clothing,20,Gray,L,Polyester
+10,Blazer,Men's Clothing,70,Black,M,Wool
+11,Coat,Women's Clothing,80,Black,M,Cashmere
+12,Leggings,Women's Clothing,20,Black,S,Spandex
+13,Scarf,Accessories,15,Blue,One Size,Cotton
+14,Socks,Accessories,5,White,One Size,Cotton
+15,Belt,Accessories,10,Brown,One Size,Leather
+16,Sunglasses,Accessories,20,Black,One Size,Plastic
+17,Hat,Accessories,15,Red,One Size,Wool
+18,Gloves,Accessories,10,Gray,One Size,Wool
+19,Beanie,Accessories,12,Blue,One Size,Cotton
+20,Earrings,Accessories,8,Silver,One Size,Metal
+21,Necklace,Accessories,25,Gold,One Size,Metal
+22,Bracelet,Accessories,18,Gold,One Size,Metal
+23,Ring,Accessories,20,Silver,One Size,Metal
+24,Winter Jacket,Women's Clothing,100,Black,L,Down
+25,Raincoat,Women's Clothing,70,Blue,M,Polyester
+26,Sweatpants,Men's Clothing,40,Black,L,Cotton
+27,Polo Shirt,Men's Clothing,30,Blue,M,Cotton
+28,Chinos,Men's Clothing,45,Khaki,32x32,Cotton
+29,Capri Pants,Women's Clothing,30,Gray,M,Cotton
+30,Tank Top,Women's Clothing,15,White,S,Cotton
+31,Denim Jacket,Women's Clothing,60,Blue,M,Denim
+32,Cardigan,Women's Clothing,40,Beige,M,Wool
+33,Sweatshirt,Women's Clothing,35,Pink,S,Cotton
+34,Swimsuit,Women's Clothing,40,Red,S,Spandex
+35,Swim Trunks,Men's Clothing,35,Blue,L,Polyester
+36,Flip Flops,Women's Shoes,10,Black,8,Rubber
+37,Sneakers,Women's Shoes,50,White,7,Canvas
+38,Boots,Women's Shoes,80,Brown,8,Leather
+39,Heels,Women's Shoes,60,Black,7,Leather
+40,Loafers,Men's Shoes,70,Brown,10,Leather
+41,Dress Shoes,Men's Shoes,80,Black,9,Leather
+42,Sandals,Men's Shoes,30,Brown,10,Leather
+43,Running Shoes,Men's Shoes,60,Gray,9,Mesh
+44,Work Boots,Men's Shoes,90,Black,10,Leather
+45,Slippers,Unisex Shoes,25,Gray,9,Wool
+46,High Tops,Unisex Shoes,45,Black,8,Canvas
+47,Flats,Women's Shoes,40,Red,7,Suede
+48,Ankle Boots,Women's Shoes,70,Black,8,Leather
+49,Wedges,Women's Shoes,55,Beige,7,Suede
+50,Platform Shoes,Women's Shoes,65,Black,8,Faux Leather
+51,Bikini,Women's Swimwear,30,Blue,S,Nylon
+52,One Piece Swimsuit,Women's Swimwear,40,Black,M,Nylon
+53,Board Shorts,Men's Swimwear,35,Red,L,Polyester
+54,Trunks,Men's Swimwear,25,Blue,M,Nylon
+55,Beach Cover-Up,Women's Swimwear,20,White,M,Cotton
+56,Rash Guard,Unisex Swimwear,30,Black,L,Nylon
+57,Ski Jacket,Unisex Outerwear,120,Blue,M,Gore-Tex
+58,Snow Pants,Unisex Outerwear,100,Black,L,Nylon
+59,Fleece Jacket,Unisex Outerwear,80,Gray,M,Polyester
+60,Rain Jacket,Unisex Outerwear,70,Green,M,Polyester
+61,Hiking Boots,Unisex Shoes,90,Brown,9,Leather
+62,Trekking Shoes,Unisex Shoes,80,Gray,9,Synthetic
+63,Camping Tent,Outdoor Gear,150,Green,One Size,Nylon
+64,Backpack,Outdoor Gear,70,Blue,One Size,Nylon
+65,Sleeping Bag,Outdoor Gear,100,Orange,One Size,Polyester
+66,Hiking Pants,Outdoor Gear,60,Khaki,M,Nylon
+67,Fishing Rod,Outdoor Gear,80,Black,One Size,Fiberglass
+68,Binoculars,Outdoor Gear,50,Black,One Size,Plastic
+69,Climbing Shoes,Unisex Shoes,100,Black,9,Leather
+70,Climbing Harness,Outdoor Gear,80,Blue,One Size,Nylon
+71,Headlamp,Outdoor Gear,30,Black,One Size,Plastic
+72,Cycling Helmet,Outdoor Gear,40,Red,One Size,Polycarbonate
+73,Cycling Shorts,Outdoor Gear,50,Black,M,Polyester
+74,Water Bottle,Outdoor Gear,10,Blue,One Size,Plastic
+75,Ski Goggles,Winter Sports Gear,50,Black,One Size,Plastic
+76,Ski Gloves,Winter Sports Gear,30,Black,One Size,Nylon
+77,Snowboard,Winter Sports Gear,200,Blue,One Size,Fiberglass
+78,Ice Skates,Winter Sports Gear,80,Black,8,Leather
+79,Snowshoes,Winter Sports Gear,120,Gray,One Size,Aluminum
+80,Skis,Winter Sports Gear,250,Red,One Size,Fiberglass
+81,Snowboard Boots,Winter Sports Gear,150,Black,9,Nylon
+82,Snowboard Bindings,Winter Sports Gear,100,Black,One Size,Plastic
+83,Snowboard Pants,Winter Sports Gear,100,Gray,M,Nylon
+84,Snowboard Jacket,Winter Sports Gear,150,Green,M,Nylon
+85,Snowmobile,Outdoor Gear,500,Black,One Size,Aluminum
+86,Snowmobile Suit,Winter Sports Gear,300,Black,L,Nylon
+87,Snowmobile Helmet,Winter Sports Gear,200,Black,One Size,Polycarbonate
+88,Snowmobile Gloves,Winter Sports Gear,50,Black,One Size,Nylon
+89,Snowmobile Goggles,Winter Sports Gear,80,Black,One Size,Plastic
+90,Snowmobile Boots,Winter Sports Gear,150,Black,9,Leather
+91,Base Layer,Winter Sports Gear,40,Gray,S,Polyester
+92,Fleece Pants,Winter Sports Gear,60,Black,M,Polyester
+93,Beanie Hat,Winter Sports Gear,20,Black,One Size,Wool
+94,Neck Gaiter,Winter Sports Gear,15,Blue,One Size,Fleece
+95,Insulated Jacket,Winter Sports Gear,150,Red,M,Nylon
+96,Insulated Pants,Winter Sports Gear,100,Black,M,Nylon
+97,Insulated Boots,Winter Sports Gear,120,Black,9,Leather
+98,Insulated Gloves,Winter Sports Gear,50,Black,One Size,Nylon
+99,Insulated Socks,Winter Sports Gear,20,Gray,One Size,Wool
+100,Insulated Vest,Winter Sports Gear,80,Gray,M,Nylon

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .recommended-item {
+            display: inline-block;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .recommended-item img {
+            width: 100px;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recommendations for {{ product_name }}</h1>
+        
+        <h2>User Input:</h2>
+        <div class="recommended-item">
+            <img src="{{ user_image_urls[0] }}" alt="User Input" loading="lazy">
+        </div>
+        
+        <h2>Recommended Items:</h2>
+        <div class="recommended-items">
+            {% for i in range(recommendations|length) %}
+            <div class="recommended-item">
+                <img src="{{ recommendation_image_urls[i] }}" alt="{{ recommendations[i] }}" loading="lazy">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

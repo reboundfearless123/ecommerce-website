@@ -1,0 +1,156 @@
+Product_ID,Product_Name,Category,Price,Color,Size,Material
+1,Sneakers,Shoes,50,White,7,Canvas
+2,Boots,Shoes,80,Brown,8,Leather
+3,Heels,Shoes,60,Black,7,Leather
+4,Loafers,Shoes,70,Brown,10,Leather
+5,Dress Shoes,Shoes,80,Black,9,Leather
+6,Sandals,Shoes,30,Brown,10,Leather
+7,Running Shoes,Shoes,60,Gray,9,Mesh
+8,Work Boots,Shoes,90,Black,10,Leather
+9,Flip Flops,Shoes,10,Black,8,Rubber
+10,High Tops,Shoes,45,Black,8,Canvas
+11,Flats,Shoes,40,Red,7,Suede
+12,Ankle Boots,Shoes,70,Black,8,Leather
+13,Wedges,Shoes,55,Beige,7,Suede
+14,Platform Shoes,Shoes,65,Black,8,Faux Leather
+15,Climbing Shoes,Shoes,100,Black,9,Leather
+16,Climbing Shoes,Shoes,80,Gray,9,Synthetic
+17,Hiking Boots,Shoes,90,Brown,9,Leather
+18,Trekking Shoes,Shoes,80,Gray,9,Synthetic
+19,Snowmobile Boots,Shoes,150,Black,9,Leather
+20,Cycling Shoes,Shoes,100,Black,9,Synthetic
+21,Soccer Cleats,Shoes,70,Black,9,Synthetic
+22,Golf Shoes,Shoes,80,White,10,Leather
+23,Basketball Shoes,Shoes,120,Black,10,Synthetic
+24,Track Spikes,Shoes,50,Blue,9,Synthetic
+25,Skate Shoes,Shoes,60,Black,9,Suede
+26,Bowling Shoes,Shoes,40,White,9,Leather
+27,Ballet Flats,Shoes,35,Pink,8,Satin
+28,Rain Boots,Shoes,45,Yellow,8,Rubber
+29,Boat Shoes,Shoes,55,Brown,10,Leather
+30,Snow Boots,Shoes,90,Gray,9,Nylon
+31,Slippers,Shoes,25,Gray,9,Wool
+32,Rain Boots,Shoes,45,Green,8,Rubber
+33,Snow Boots,Shoes,90,White,9,Nylon
+34,Ski Boots,Shoes,200,Black,10,Plastic
+35,Snow Boots,Shoes,90,Brown,9,Leather
+36,Work Shoes,Shoes,70,Black,10,Leather
+37,Garden Shoes,Shoes,30,Green,8,Rubber
+38,Moccasins,Shoes,40,Brown,9,Leather
+39,Running Shoes,Shoes,60,Blue,9,Mesh
+40,High Heels,Shoes,50,Red,8,Leather
+41,Rain Boots,Shoes,45,Blue,8,Rubber
+42,Casual Shoes,Shoes,55,Gray,9,Canvas
+43,Tennis Shoes,Shoes,70,White,10,Leather
+44,Athletic Shoes,Shoes,60,Black,9,Mesh
+45,Oxfords,Shoes,80,Brown,10,Leather
+46,Slip-Ons,Shoes,45,Black,9,Suede
+47,Snow Boots,Shoes,90,Black,9,Leather
+48,Rain Boots,Shoes,45,Brown,8,Rubber
+49,Flip Flops,Shoes,10,Blue,8,Rubber
+50,High Tops,Shoes,45,Red,8,Canvas
+1,T-Shirt,Shirt,20,Red,S,Cotton
+2,T-Shirt,Shirt,25,Blue,M,Polyester
+3,T-Shirt,Shirt,30,Green,L,Spandex
+4,T-Shirt,Shirt,20,White,XL,Cotton
+5,T-Shirt,Shirt,22,Black,XS,Polyester
+6,T-Shirt,Shirt,25,Gray,S,Cotton
+7,T-Shirt,Shirt,28,Red,M,Cotton
+8,T-Shirt,Shirt,30,Blue,L,Polyester
+9,T-Shirt,Shirt,20,Green,XL,Cotton
+10,T-Shirt,Shirt,22,White,XS,Polyester
+11,T-Shirt,Shirt,25,Black,S,Cotton
+12,T-Shirt,Shirt,28,Gray,M,Cotton
+13,T-Shirt,Shirt,30,Red,L,Polyester
+14,T-Shirt,Shirt,20,Blue,XL,Cotton
+15,T-Shirt,Shirt,22,Green,XS,Polyester
+16,T-Shirt,Shirt,25,White,S,Cotton
+17,T-Shirt,Shirt,28,Black,M,Cotton
+18,T-Shirt,Shirt,30,Gray,L,Polyester
+19,T-Shirt,Shirt,20,Red,XL,Cotton
+20,T-Shirt,Shirt,22,Blue,XS,Polyester
+21,T-Shirt,Shirt,25,Green,S,Cotton
+22,T-Shirt,Shirt,28,White,M,Cotton
+23,T-Shirt,Shirt,30,Black,L,Polyester
+24,T-Shirt,Shirt,20,Gray,XL,Cotton
+25,T-Shirt,Shirt,22,Red,XS,Polyester
+26,T-Shirt,Shirt,25,Blue,S,Cotton
+27,T-Shirt,Shirt,28,Green,M,Cotton
+28,T-Shirt,Shirt,30,White,L,Polyester
+29,T-Shirt,Shirt,20,Black,XL,Cotton
+30,T-Shirt,Shirt,22,Gray,XS,Polyester
+31,T-Shirt,Shirt,25,Red,S,Cotton
+32,T-Shirt,Shirt,28,Blue,M,Cotton
+33,T-Shirt,Shirt,30,Green,L,Polyester
+34,T-Shirt,Shirt,20,White,XL,Cotton
+35,T-Shirt,Shirt,22,Black,XS,Polyester
+36,T-Shirt,Shirt,25,Gray,S,Cotton
+37,T-Shirt,Shirt,28,Red,M,Cotton
+38,T-Shirt,Shirt,30,Blue,L,Polyester
+39,T-Shirt,Shirt,20,Green,XL,Cotton
+40,T-Shirt,Shirt,22,White,XS,Polyester
+41,T-Shirt,Shirt,25,Black,S,Cotton
+42,T-Shirt,Shirt,28,Gray,M,Cotton
+43,T-Shirt,Shirt,30,Red,L,Polyester
+44,T-Shirt,Shirt,20,Blue,XL,Cotton
+45,T-Shirt,Shirt,22,Green,XS,Polyester
+46,T-Shirt,Shirt,25,White,S,Cotton
+47,T-Shirt,Shirt,28,Black,M,Cotton
+48,T-Shirt,Shirt,30,Gray,L,Polyester
+49,T-Shirt,Shirt,20,Red,XL,Cotton
+50,T-Shirt,Shirt,22,Blue,XS,Polyester
+1,Pants,Pants,30,Black,S,Cotton
+2,Pants,Pants,35,Blue,M,Denim
+3,Pants,Pants,40,Gray,L,Polyester
+4,Pants,Pants,25,Green,XL,Cotton
+5,Pants,Pants,30,White,XS,Spandex
+6,Pants,Pants,35,Black,S,Cotton
+7,Pants,Pants,40,Blue,M,Denim
+8,Pants,Pants,28,Gray,L,Polyester
+9,Pants,Pants,30,Red,XL,Cotton
+10,Pants,Pants,35,White,XS,Spandex
+11,Pants,Pants,40,Black,S,Cotton
+12,Pants,Pants,28,Blue,M,Denim
+13,Pants,Pants,30,Gray,L,Polyester
+14,Pants,Pants,25,Red,XL,Cotton
+15,Pants,Pants,35,White,XS,Spandex
+16,Pants,Pants,40,Black,S,Cotton
+17,Pants,Pants,28,Blue,M,Denim
+18,Pants,Pants,30,Gray,L,Polyester
+19,Pants,Pants,25,Red,XL,Cotton
+20,Pants,Pants,35,White,XS,Spandex
+21,Pants,Pants,40,Black,S,Cotton
+22,Pants,Pants,28,Blue,M,Denim
+23,Pants,Pants,30,Gray,L,Polyester
+24,Pants,Pants,25,Red,XL,Cotton
+25,Pants,Pants,35,White,XS,Spandex
+26,Pants,Pants,40,Black,S,Cotton
+27,Pants,Pants,28,Blue,M,Denim
+28,Pants,Pants,30,Gray,L,Polyester
+29,Pants,Pants,25,Red,XL,Cotton
+30,Pants,Pants,35,White,XS,Spandex
+31,Pants,Pants,40,Black,S,Cotton
+32,Pants,Pants,28,Blue,M,Denim
+33,Pants,Pants,30,Gray,L,Polyester
+34,Pants,Pants,25,Red,XL,Cotton
+35,Pants,Pants,35,White,XS,Spandex
+36,Pants,Pants,40,Black,S,Cotton
+37,Pants,Pants,28,Blue,M,Denim
+38,Pants,Pants,30,Gray,L,Polyester
+39,Pants,Pants,25,Red,XL,Cotton
+40,Pants,Pants,35,White,XS,Spandex
+41,Pants,Pants,40,Black,S,Cotton
+42,Pants,Pants,28,Blue,M,Denim
+43,Pants,Pants,30,Gray,L,Polyester
+44,Pants,Pants,25,Red,XL,Cotton
+45,Pants,Pants,35,White,XS,Spandex
+46,Pants,Pants,40,Black,S,Cotton
+47,Pants,Pants,28,Blue,M,Denim
+48,Pants,Pants,30,Gray,L,Polyester
+49,Pants,Pants,25,Red,XL,Cotton
+50,Pants,Pants,35,White,XS,Spandex
+
+
+
+
+

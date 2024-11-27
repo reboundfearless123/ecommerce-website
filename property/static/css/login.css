@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: seagreen;
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.container {
+    max-width: 600px; /* Increase max-width */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: purple;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: grey;
+    color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+form {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Increase margin for better spacing */
+    font-size: 24px; /* Adjust heading font size */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Increase margin for better spacing */
+    font-size: 20px; /* Adjust label font size */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="confirm-password"] {
+    width: 100%; /* Make all fields take full width */
+    padding: 10px; /* Increase padding for better input size */
+    font-size: 18px; /* Keep font size consistent */
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.input.invalid {
+    border-color: #dc3545;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Increase margin for better spacing */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 45px; /* Increase padding for better button size */
+    border: none;
+    border-radius: 40px; /* Adjust border radius */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px; /* Adjust button font size */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 15px; /* Increase margin for better spacing */
+    font-size: 18px; /* Adjust link font size */
+}
+
+/* Additional styles for alert messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.invalid-feedback{
+    color:red;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+.form-group{
+    color:white;
+    margin: 10px;
+}
+.text-muted a {
+    color: white; /* Change the color to yellow */
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Add underline */
+
+}
+
+.text-muted a:hover {
+    color: #ffca28; /* Change color on hover */
+}

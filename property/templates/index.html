@@ -1,0 +1,1008 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Untree.co" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}" />
+
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap5" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/flaticon/font/flaticon.css') }}" />
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tiny-slider.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    
+    <title>
+      STYLETHRIFT
+    </title>
+  </head>
+  <body>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+      <div class="container">
+        <div class="menu-bg-wrap">
+          <div class="site-navigation">
+            <a href="{{url_for('home')}}" class="logo m-0 float-start">Stylethrift</a>
+
+            <ul
+              class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
+            >
+              <li class="active"><a href="{{url_for('home')}}" >Mens</a></li>
+              <li class="has-children">
+                <a href="{{url_for('properties')}}">Types</a>
+                <ul class="dropdown">
+                  <li><a href="#">T-shirt</a></li>
+                  <li><a href="#">shirt</a></li>
+                  <li class="has-children">
+                    <a href="#">shoes</a>
+                    <ul class="dropdown">
+                      <li><a href="#">Air Jorden</a></li>
+                      <li><a href="#">Adidas</a></li>
+					  <li><a href="#">Burberry</a></li>
+                      <li><a href="#">Nike</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="{{url_for('services')}}">Womens</a></li>
+              <li><a href="{{url_for('about')}}">About</a></li>
+              <li><a href="{{url_for('contact')}}">Contact Us</a></li>
+              {%if current_user.is_authenticated%}
+              <a href="{{url_for('logout')}}"><button class="btn btn-primary">    
+                Logout
+                <ion-icon name="heart-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+              </button></div></a>
+              {%else%}
+              <a href="{{url_for('register')}}"><button class="btn btn-primary">    
+                Register
+                <ion-icon name="heart-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+              </button></a>
+              <a href="{{url_for('login')}}"><button class="btn btn-primary">    
+                Login
+                <ion-icon name="heart-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+              </button></a>
+              {%endif%}
+              
+            </ul>
+
+            <a
+              href="#"
+              class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+            >
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-slide">
+        <div class="img overlay" style="background-image: url('{{ url_for('static', filename='images/7.webp') }}')"></div>
+        <div class="img overlay" style="background-image: url('{{ url_for('static', filename='images/77.jpeg') }}')"></div>
+        <div class="img overlay" style="background-image: url('{{ url_for('static', filename='images/777.jpeg') }}')"></div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-9 text-center">
+            <h1 class="heading" data-aos="fade-up">
+              Easiest way to find your dream Cloths & Shoes
+            </h1>
+            <form
+              action="#"
+              class="narrow-w form-search d-flex align-items-stretch mb-3"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <input
+                type="text"
+                class="form-control px-4"
+                placeholder="welcome to our clothing"
+              />
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-6">
+            <h2 class="font-weight-bold text-primary heading">
+              Hoodies & Sweatshirts
+            </h2>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <p>
+              <a
+                href="#"
+                target="_blank"
+                class="btn btn-primary text-white py-3 px-4"
+                >view all</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="property-slider-wrap">
+              <div class="property-slider">
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div class="price mb-2"><span>14,000</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5232, Ave. 21BC</span>
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                          <span class="caption">H&M</span>
+                        </span>
+                      </div>
+                      <a href="{{url_for('propertysingle')}}"   class="btn btn-primary py-2 px-3">BUY NOW</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm1.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+                  <div class="property-content">
+                    <div class="price mb-2"><span>13,098</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50">5233, Ave. 21BC</span>
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">                         
+                          <span class="caption">Rolex</span>
+                        </span>
+                      </div>
+                      <a href="{{url_for('propertysingle')}}" class="btn btn-primary py-2 px-3">BUY NOW</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm2.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>11,999</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5234, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                         
+                          <span class="caption">Levi’s</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm3.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>11,000</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5235, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                         
+                          <span class="caption">Polo Ralph Lauren</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm4.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>15,000</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5236, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                          
+                          <span class="caption">Calvin Klein</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm5.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>14,800</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5236, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                        
+                          <span class="caption">Tommy Hilfiger</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm6.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>11,999</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5237, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                         
+                          <span class="caption">Zara</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm7.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>9999</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5238, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                          
+                          <span class="caption">LOUIS VUITTON</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+
+                <div class="property-item">
+                  <a href="{{url_for('propertysingle')}}" class="img">
+                    <img src="{{url_for('static', filename='images/hm2.jpeg')}}" alt="Image" class="img-fluid" />
+                  </a>
+
+                  <div class="property-content">
+                    <div class="price mb-2"><span>13,499</span></div>
+                    <div>
+                      <span class="d-block mb-2 text-black-50"
+                        >5239, Ave. 21BC</span
+                      >
+                      <span class="city d-block mb-3">GWALIOR,MP</span>
+
+                      <div class="specs d-flex mb-4">
+                        <span class="d-block d-flex align-items-center me-3">
+                          
+                          <span class="caption">VERSACE</span>
+                        </span>
+                        
+                      </div>
+
+                      <a
+                        href="{{url_for('propertysingle')}}"
+                        class="btn btn-primary py-2 px-3"
+                        >BUY NOW</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- .item -->
+              </div>
+
+              <div
+                id="property-nav"
+                class="controls"
+                tabindex="0"
+                aria-label="Carousel Navigation"
+              >
+                <span
+                  class="prev"
+                  data-controls="prev"
+                  aria-controls="property"
+                  tabindex="-1"
+                  >Prev</span
+                >
+                <span
+                  class="next"
+                  data-controls="next"
+                  aria-controls="property"
+                  tabindex="-1"
+                  >Next</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+
+
+    <section class="features-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="box-feature">
+             
+              <h3 class="mb-3">HOODIES</h3>
+              <p>
+                Our hoodies come in all fashions and designs. Check out these fun 
+				prints and snug styles, soft fabrics and clever design details. 
+				Match your hoodie with your favourite ripped jeans and sneakers or
+				go glam and pair with a sparkly skirt and heels.
+              </p>
+              <p><a href="#" class="learn-more">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+            <div class="box-feature">
+            
+              <h3 class="mb-3">SWEATSHIRT</h3>
+              <p>
+                Our Sweatshirt come in all fashions and designs. Check out these fun prints
+				and snug styles, soft fabrics and clever design details. Match your sweatshirt
+				with your favourite ripped jeans and sneakers or go glam and pair with a sparkly skirt and heels.
+              </p>
+              <p><a href="#" class="learn-more">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="box-feature">
+             
+              <h3 class="mb-3">SHOES</h3>
+              <p>
+                From sweat-wicking fabrics to the bouncy foam under your feet, 
+				By inventing more efficient materials and reusing existing plastics,
+				yarns and textiles, we’re making big strides on our journey to zero 
+				carbon and zero waste.
+              </p>
+              <p><a href="#" class="learn-more">Learn More</a></p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="box-feature">
+              
+              <h3 class="mb-3">WOMEN SECTION</h3>
+              <p>
+    Get your hands on stylish and comfortable clothing for women - Buy a range of ladies' clothing online at 
+    affordable prices. Beyoung offers the latest collection of Kurtis, shirts, tops, t-shirts, pants, boxers,
+	with existing offers and discounts
+		  </p>
+              <p><a href="#" class="learn-more">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section sec-testimonials">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-6">
+            <h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">
+              Customer Says
+            </h2>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div id="testimonial-nav">
+              <span class="prev" data-controls="prev">Prev</span>
+
+              <span class="next" data-controls="next">Next</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="testimonial-slider-wrap">
+          <div class="testimonial-slider">
+            <div class="item">
+              <div class="testimonial">
+                <img
+                  src="{{url_for('static', filename='images/damon.jpeg')}}"
+                  alt="Image"
+                  class="img-fluid rounded-circle w-25 mb-4"
+                />
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">Damon salvatore</h3>
+                <blockquote>
+                  <p>
+                    Such a lovely experience. The girls made the experience really enjoyable
+					even in the current climate. They were so helpful from start to finish., 
+					offering great advise and going above a beyond to help me find the perfect dress.
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="testimonial">
+                <img
+                  src="{{url_for('static', filename='images/vin diesel.jpeg')}}"
+                  alt="Image"
+                  class="img-fluid rounded-circle w-25 mb-4"
+                />
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">vin diesel</h3>
+                <blockquote>
+                  <p>
+                    This sweater is pretty great. I love the length and the fit and mostly
+					I love how cozy it is. It keeps me warm, looks great and is soft and luxurious.
+					I am thinking about getting another in a different color…because if it’s this good, why not?
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="testimonial">
+                <img
+                  src="{{url_for('static', filename='images/jhonny.jpeg')}}"
+                  alt="Image"
+                  class="img-fluid rounded-circle w-25 mb-4"
+                />
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">Jhonny Depp</h3>
+                <blockquote>
+                  <p>
+                   This sweater is a bulky, fairly heavy winter sweater
+				   that will be awesome for the office or casual wear. 
+				   The fabric is very silky soft. It’s nice and snuggly!
+				   I can’t wait for it to get cool enough to wear it!
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="testimonial">
+                <img src="{{url_for('static', filename='images/honey.jpeg')}}" alt="Image" class="img-fluid rounded-circle w-25 mb-4"/>
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">Honey Singh</h3>
+                <blockquote>
+                  <p>
+                    This cardigan has quickly become my favourite! It is so warm 
+					and comfortable on these cold winter days. I completely recommend 
+					this purchase and would absolutely buy again!So soft and comfortable. 
+					Feels casual but can be worn with almost anything. The material feels expensive.
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section-4 bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-5">
+            <h2 class="font-weight-bold heading text-primary mb-4">
+              Let's find cloths that's perfect for you
+            </h2>
+            <p class="text-black-50">
+              Try this brands. we are sure you like it.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between mb-5">
+          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
+            <div class="img-about dots">
+              <img src="{{url_for('static', filename='images/88.jpeg')}}" alt="Image"  class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-home2"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">ALL POPULAR BRANDS</h3>
+                <p class="text-black-50">
+                  We have all kind of popular brands like Zara,H&M,Nike,Adidas,Puma and lots more with suitable price.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-person"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">BEST OFFERS FOR NEW USER</h3>
+                <p class="text-black-50">
+                 We have best offer for new users in their first order in any brand.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <span class="icon-security"></span>
+              </span>
+              <div class="feature-text">
+                <h3 class="heading">DEALS</h3>
+                <p class="text-black-50">
+                  We provide best deals for our customer in festival seasons and new year.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row section-counter mt-5">
+          <div
+            class="col-6 col-sm-6 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">3298</span></span
+              >
+              <span class="caption text-black-50"># of Buy hoodies</span>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-6 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">2181</span></span
+              >
+              <span class="caption text-black-50"># of Sell sweatshirt</span>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-6 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">9316</span></span
+              >
+              <span class="caption text-black-50"># of All women section</span>
+            </div>
+          </div>
+          <div
+            class="col-6 col-sm-6 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">7191</span></span
+              >
+              <span class="caption text-black-50"># of shoes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="row justify-content-center footer-cta" data-aos="fade-up">
+        <div class="col-lg-7 mx-auto text-center">
+          <h2 class="mb-4">Be a part of our growing stylethrift community.</h2>
+          <p>
+            <a
+              href="#"
+              target="_blank"
+              class="btn btn-primary text-white py-3 px-4"
+              >Apply for Community Partner </a
+            >
+          </p>
+        </div>
+        <!-- /.col-lg-7 -->
+      </div>
+      <!-- /.row -->
+    </div>
+
+    <div class="section section-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-6 mb-5">
+            <h2 class="font-weight-bold heading text-primary mb-4">
+              OUR PARTNER
+            </h2>
+            <p class="text-black-50">
+            Your about page summarizes your history, values, and mission — all in one place.
+			That’s a tall order for just a few paragraphs. If you’re feeling stuck,
+			turn to these about-page examples for inspiration.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="h-100 person">
+              <img
+                src="{{url_for('static', filename='images/PRIYANSHU.jpg')}}"
+                alt="Image"
+                class="img-fluid"
+              />
+
+              <div class="person-contents">
+                <h2 class="mb-0"><a href="#">PRIYANSHU AHIRWAR</a></h2>
+                <span class="meta d-block mb-3">Founder </span>
+                <p>
+                  A brilliant about page design goes beyond just incorporating your company color schemes.
+				  It includes your choice of fonts, visuals, icons, and more. Here are seven tips for 
+				  designing a great about us page.
+                </p>
+
+                <ul class="social list-unstyled list-inline dark-hover">
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="h-100 person">
+              <img
+                src="{{url_for('static', filename='images/ASIF.jpeg')}}"
+                alt="Image"
+                class="img-fluid"
+              />
+
+              <div class="person-contents">
+                <h2 class="mb-0"><a href="#">ASIF KHAN </a></h2>
+                <span class="meta d-block mb-3">Founder </span>
+                <p>
+                  Customers want to be treated like human beings. For that to happen, they need
+				  to feel that they’re being served by human beings. When finishing your about page,
+				  describe who you are as a person or a team. What’s your company culture like?
+				  What bigger picture in life drives your business?
+                </p>
+
+                <ul class="social list-unstyled list-inline dark-hover">
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="h-100 person">
+              <img
+                src="{{url_for('static', filename='images/AYUSH.jpeg')}}"
+                alt="Image"
+                class="img-fluid"
+              />
+
+              <div class="person-contents">
+                <h2 class="mb-0"><a href="#">AYUSH SHARMA</a></h2>
+                <span class="meta d-block mb-3">Founder </span>
+                <p>
+                  Got some loyal customers in your portfolio? Use your about page to tell the world about them.
+				  Consider naming your most successful clients and linking to a case study.
+                </p>
+
+                <ul class="social list-unstyled list-inline dark-hover">
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>Contact</h3>
+              <address>56 sector, GWALIOR(MP) 456331</address>
+              <ul class="list-unstyled links">
+                <li><a href="tel://11234567890">+91 9009845685</a></li>
+                <li><a href="tel://11234567890">+91 9884567351</a></li>
+                <li>
+                  <a href="mailto:ayushsharma@gmail.com">ayushsharma@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>Sources</h3>
+              <ul class="list-unstyled float-start links">
+                <li><a href="{{url_for('about')}}">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+              <ul class="list-unstyled float-start links">
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Creative</a></li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="widget">
+              <h3>Links</h3>
+              <ul class="list-unstyled links">
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="url_for{{'about'}}">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+
+              <ul class="list-unstyled social">
+                <li>
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-linkedin"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-pinterest"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-dribbble"></span></a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.widget -->
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <!-- 
+              **==========
+              NOTE: 
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              **==========
+            -->
+
+            <p>
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              . All Rights Reserved. 
+              </p>
+            <div>
+              Distributed by
+              <a href="https://themewagon.com/" target="_blank">The Thrift Team</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.site-footer -->
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script> -->
+	  <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/tiny-slider.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/aos.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/counter.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+	
+  </body>
+</html>
